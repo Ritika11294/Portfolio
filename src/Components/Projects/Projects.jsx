@@ -165,6 +165,50 @@ export const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src="https://i.pinimg.com/originals/98/22/aa/9822aa6884cf5fdbc6f80a32adb34e48.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>Weather App</h2>
+              <p>
+              It's an online web application where users can enter a location to see the weather forecast, icons that represent different weather conditions (such as a sun for a clear day or a cloud for a cloudy day), and temperature and humidity readings.
+              </p>
+              <div>
+                <FaReact />
+                <DiCss3 />
+                <SiHtml5 />
+                <SiJavascript />
+              </div>
+              <div>
+                <a
+                  href="https://weather-ritika.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/Ritika11294/Weather-App"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
